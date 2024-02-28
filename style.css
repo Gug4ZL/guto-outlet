@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(128, 0, 0, 0.1) 15%, rgba(128, 0, 0, 0.1) 50%, rgba(128, 0, 0, 0.1) 85%);
+
+}
+
+
+.container-header {
+    background: rgba(102, 1, 1, 1.0);
+    background: linear-gradient(270deg, rgba(102, 1, 1, 1.0), rgba(1, 1, 1, 1.0));
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links {
+    color: #800000;
+    font-size: 25px;
+}
+
+.search {
+    height: 30px;
+    width: 32%;
+    border: none;
+    border-radius: 14px;
+    padding-left: 14px;
+
+
+}
+
+.search:hover {
+    cursor: pointer;
+    outline: #800000;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    color: #ffffff;
+}
+
+.marcas {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+
+
+}
+
+.marcas-loja {
+    position: relative;
+    top: 100px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #800000;
+}
+
+.marcas-loja:hover {
+    cursor: pointer;
+    border: solid 1px #ffffff;
+    transition: 0.5s ease-out;
+    height: 160px;
+}
+
+
+.cloths-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-cloths,
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+span {
+    position: relative;
+    top: 25px;
+    color: #800000;
+
+}
