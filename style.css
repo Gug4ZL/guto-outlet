@@ -22,9 +22,31 @@ body {
     width: 100vw;
     position: fixed;
     top: 0;
-    background: linear-gradient(109deg, rgba(128, 0, 0, 0.1) 15%, rgba(128, 0, 0, 0.1) 50%, rgba(128, 0, 0, 0.1) 85%);
+    /* background: linear-gradient(109deg, rgba(128, 0, 0, 0.1) 15%, rgba(128, 0, 0, 0.1) 50%, rgba(128, 0, 0, 0.1) 85%); */
 
 }
+
+.logo-mask{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.logo-mask {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    height: 70%;
+
+}
+
 
 
 .container-header {
@@ -44,21 +66,24 @@ body {
     font-size: 25px;
 }
 
+.links:hover{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    text-shadow: 3px 1px 13px #000000;
+}
+
 .search {
     height: 30px;
     width: 32%;
     border: none;
     border-radius: 14px;
     padding-left: 14px;
+    outline: none;
 
 
 }
-
-.search:hover {
-    cursor: pointer;
-    outline: #800000;
-}
-
 
 
 h1 {
@@ -68,6 +93,7 @@ h1 {
     position: relative;
     top: 30px;
     color: #ffffff;
+    
 }
 
 .marcas {
@@ -89,9 +115,9 @@ h1 {
 
 .marcas-loja:hover {
     cursor: pointer;
-    border: solid 1px #ffffff;
-    transition: 0.5s ease-out;
-    height: 160px;
+    border: solid 1px #000000;
+    transition: 0.5s ease-out; 
+    box-shadow: 0px 0px 29px #800000;
 }
 
 
@@ -104,6 +130,13 @@ h1 {
     top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.cloths-price,.price:hover{
+    cursor: pointer;
+    height: 275px;
+    border: #ffffff;
+
 }
 
 .text-cloths,
@@ -120,3 +153,17 @@ span {
     color: #800000;
 
 }
+
+.login-page{
+    font-size: 25px;
+    position: relative;
+    left: 15%;
+}
+
+.login-page:hover{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    text-shadow: 3px 1px 13px #000000;
+}
+
