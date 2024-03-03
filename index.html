@@ -17,18 +17,18 @@
     <div class="mask">
         <div class="mascara"></div>
     </div>
-    <img class="logo-mask" src="./assets/e57ebf15-cd21-4550-8225-495d9577fa66_preview_rev_1.png" alt="" srcset="">
+    <img class="logo-mask" src="./assets/logo-guto.png">
 
     <div class="container-header">
         <div class="header">
-            <img src="./assets/e57ebf15-cd21-4550-8225-495d9577fa66_preview_rev_1.png" alt="logo da Outlet"
+            <img src="./assets/logo-guto.png" alt="logo da Outlet"
                 height="200px">
 
             <a class="links">Roupas</a>
             <a class="links">Tenis</a>
             <a class="links">Acessório</a>
             <input placeholder="Procurar" class="search">
-            <a class="login-page">Login</a>
+            <a class="login-page" onclick="abrir()">Login</a>
 
         </div>
     </div>
@@ -87,8 +87,37 @@
         </div>
 
     </div>
-</body>
 
+    <div class="formulario">
+
+        <img src="./assets/logo-guto.png" class="logo-cadastro">
+
+        <form>
+
+            <label for="text"> Nome:
+                <input type="text" name="text" class="input-form"></label>
+
+            <label for="email"> Email:
+                <input type="email" name="email" class="input-form">
+            </label>
+
+            <label for="senha"> Senha:
+                <input type="password" name="senha" class="input-form">
+            </label>
+
+         
+
+            
+        </form>
+
+        <div class="buttons">
+        <button class="cadastrado">Cadastrar</button>
+        <button class="cancel" onclick="fechar()">Cancelar</button>
+    </div>
+
+    </div>
+</body>
+<script src="./script.js"></script>
 </html>
 
 
