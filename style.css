@@ -316,6 +316,7 @@ height: 30%;
 
 .cloths-price{
     flex-direction: column;
+    top: 143%;
 }
 
 }
