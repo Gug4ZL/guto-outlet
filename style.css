@@ -100,13 +100,18 @@ h1 {
 
 }
 
-.marcas-loja {
+.marcas-loja,.hugo-logo{
     position: relative;
     top: 100px;
     height: 150px;
     border-radius: 20px;
     background-color: #800000;
 }
+
+.hugo-logo{
+    padding: 25px;
+}
+
 
 .marcas-loja:hover {
     cursor: pointer;
@@ -127,8 +132,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.cloths-price,
-.price:hover {
+.cloths-price {
     cursor: pointer;
     height: 275px;
     border: #ffffff;
