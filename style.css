@@ -100,7 +100,7 @@ h1 {
 
 }
 
-.marcas-loja,.hugo-logo{
+.marcas-loja{
     position: relative;
     top: 100px;
     height: 150px;
@@ -110,6 +110,11 @@ h1 {
 
 .hugo-logo{
     padding: 25px;
+    position: relative;
+    top: 100px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #800000;
 }
 
 
