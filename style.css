@@ -55,6 +55,9 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+    position: absolute;
+    left: 20%;
+    top: 13%;
 }
 
 .links {
@@ -254,4 +257,65 @@ label{
     height: 20px;
     border-radius: 7px;
     padding: 7px;
+}    
+
+@media screen and (max-width: 932px){
+
+.container-header{
+    width: auto;
+    height: auto;
+   
+}
+
+.links{
+    font-size: 14px;
+}
+
+.logo-header{
+    height: 150px;
+    margin-left: -26px;
+}
+
+.header{
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    top: 7%;
+    left: 24%;
+}
+
+.search{
+    width: 33vw;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.marcas{
+display: flex;
+gap: 17px;
+margin-top: -33px;
+}
+
+.marcas-loja{
+height: 85px;
+}
+
+.hugo-logo{
+height: 85px;
+}
+
+.logo-mask{
+position: fixed;
+top: 21%;
+left: 38%;
+height: 30%;
+}
+
+
+.cloths-price{
+    flex-direction: column;
+}
+
 }
