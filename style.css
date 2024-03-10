@@ -128,6 +128,14 @@ h1 {
     box-shadow: 0px 0px 29px #800000;
 }
 
+.hugo-logo:hover{
+    cursor: pointer;
+    border: solid 1px #000000;
+    transition: 0.5s ease-out;
+    box-shadow: 0px 0px 29px #800000;
+
+}
+
 
 .cloths-price {
     display: flex;
@@ -165,7 +173,7 @@ span {
 .login-page {
     font-size: 25px;
     position: relative;
-    left: 15%;
+    left: 55%;
 }
 
 .login-page:hover {
@@ -211,7 +219,7 @@ form{
     bottom: 40px;
 }
 
-button{
+.cadastrado,.cancel{
     height: 44px;
     width: 126px;
     border: none;
@@ -223,7 +231,12 @@ button{
     color:#ffffff
 }
 
-button:hover{
+.cadastrado:hover{
+    background: rgb(128, 0, 0);
+    cursor: pointer;
+}
+
+.cancel:hover{
     background: rgb(128, 0, 0);
     cursor: pointer;
 }
@@ -259,11 +272,18 @@ label{
     padding: 7px;
 }    
 
+.btn-to-slide, .btn-slide-back{
+    display: none;
+}
+
+
+
+
+
 @media screen and (max-width: 932px){
 
 .container-header{
-    width: auto;
-    height: auto;
+    width: 100%;
    
 }
 
@@ -285,7 +305,7 @@ label{
 }
 
 .search{
-    width: 32vw;
+    width: 100%;
 }
 
 h1{
@@ -323,5 +343,39 @@ height: 30%;
     display: none;
     
 }
+
+.logo-mask{
+    display: none;
+}
+
+
+.btn-to-slide{
+    position: absolute;
+    left: 92%;
+    top: 32%;
+    border-radius: 50%;
+    height: 28px;
+    width: 27px;
+    border: none;
+    opacity: 0.5;
+    background-color: #d6d6d6;
+   
+}
+
+.btn-slide-back{
+    position: absolute;
+    left: 2px;
+    top: 32%;
+    border-radius: 50%;
+    height: 28px;
+    width: 27px;
+    border: none;
+    opacity:0.5;
+    background-color: #d6d6d6;
+   
+}
+
+
+
 
 }
