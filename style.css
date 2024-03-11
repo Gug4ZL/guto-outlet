@@ -109,6 +109,7 @@ h1 {
     height: 150px;
     border-radius: 20px;
     background-color: #800000;
+    padding: 13px;
 }
 
 .hugo-logo{
@@ -272,9 +273,6 @@ label{
     padding: 7px;
 }    
 
-.btn-to-slide, .btn-slide-back{
-    display: none;
-}
 
 
 

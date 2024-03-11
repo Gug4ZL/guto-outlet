@@ -1,4 +1,6 @@
 const form = document.querySelector(".formulario")
+const slideRigth = document.querySelector(".marcas")
+const slideLeft = document.querySelector(".marcas")
 
 
 
@@ -11,3 +13,13 @@ const fechar = () =>{
     form.style.opacity = 0
     form.style.left = "-21%"
 }
+
+const left = () =>{
+    slideLeft.style.marginLeft = "-220px"
+}
+const rigth = () =>{
+    slideRigth.style.marginRight = "-128px"
+    
+}
+
+
